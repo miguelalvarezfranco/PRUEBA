@@ -1,0 +1,19 @@
+const shemaAutores = new mongoose.Shema({
+    _id:{
+        type:ObjectId,
+    },
+    nombreAutor:{
+        type:String,
+        maxlength:100,
+    },
+    apellidoAutor:{
+        type:String,
+        maxlength:100   
+    },
+    fechaNacimiento:{
+        type:Date,
+    },
+    fechaDeceso:{
+        type:Date,
+    }
+});

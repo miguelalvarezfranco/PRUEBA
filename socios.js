@@ -1,0 +1,19 @@
+const SchemaSocios = new mongoose.Schema({
+    id:{
+        type:ObjectId,
+    },
+    ccSocio:{
+        type:Number,
+    },
+    nombre:{
+        type:String,
+        maxlength:100,
+    },
+    telefono:{
+        type:Number,
+        maxlength:10,
+    },
+    direccion:{
+        type:String,
+    }
+});

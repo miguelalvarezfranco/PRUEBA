@@ -1,0 +1,20 @@
+const SchemaPrestamos = new mongoose.Schema({
+    _id:{
+        type:ObjectId,
+    },
+    fechaPrestamo:{
+        type:Date,
+    },
+    fechaDevolucion:{
+        type:Date,
+    },
+    idBibliotecologo:{
+        type:ObjectId,
+    },
+    idUsuario:{
+        type:ObjectId,
+    },
+    idLibros:{
+        type:ObjectId,
+    }
+});
