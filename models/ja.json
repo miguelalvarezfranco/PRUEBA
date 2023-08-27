@@ -1,0 +1,26 @@
+{
+    "min_position": "int(3,4,5-9)",
+    "has_more_items": "bool",
+    "items_html": "string('Bus','Car','Bike')",
+    "new_latent_count": "int",
+    "data": {
+    "length": "int(20-30)",
+    "text": "string"
+    },
+    "numericalArray": [
+    "repeat[5]",
+    "int(20,23-33)"
+    ],
+    "StringArray": [
+    "repeat[4]",
+    "string('Carbon','Nitrogen','Oxygen')"
+    ],
+    "multipleTypesArray": [3,"Hello",5,true],
+    "objArray": [
+    "repeat[5]",
+    {
+        "class": "string('middle','upper','lower')",
+        "age": "int"
+    }
+    ]
+}
